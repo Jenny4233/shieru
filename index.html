@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GalaxyPlay - Jogos Online</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>GalaxyPlay</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Jogos</a></li>
+        <li><a href="#">Comunidade</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Descubra um novo universo de jogos</h2>
+    <button id="btn-destaque">Ver Destaques</button>
+  </section>
+
+  <section class="jogos">
+    <h3>Jogos em destaque</h3>
+    <div class="galeria">
+      <div class="jogo-card" onclick="mostrarDetalhes('Star Racer')">
+        <img src="https://via.placeholder.com/150" alt="Star Racer" />
+        <p>Star Racer</p>
+      </div>
+      <div class="jogo-card" onclick="mostrarDetalhes('Dungeon Pixel')">
+        <img src="https://via.placeholder.com/150" alt="Dungeon Pixel" />
+        <p>Dungeon Pixel</p>
+      </div>
+      <div class="jogo-card" onclick="mostrarDetalhes('Cyber Ninja')">
+        <img src="https://via.placeholder.com/150" alt="Cyber Ninja" />
+        <p>Cyber Ninja</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 GalaxyPlay. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
